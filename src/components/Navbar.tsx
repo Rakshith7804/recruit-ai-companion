@@ -33,7 +33,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost">Sign In</Button>
-            <Button variant="hero">Get Started Free</Button>
+            <Button variant="hero">Sign Up</Button>
           </div>
 
           {/* Mobile menu button */}
@@ -62,7 +62,7 @@ const Navbar = () => {
             </a>
             <div className="pt-4 space-y-2">
               <Button variant="ghost" className="w-full">Sign In</Button>
-              <Button variant="hero" className="w-full">Get Started Free</Button>
+              <Button variant="hero" className="w-full">Sign Up</Button>
             </div>
           </div>
         )}
